@@ -16,9 +16,10 @@
 .heading {
     padding: 5px;
     font-size: xx-large;
-    width : 20%;
+    width : 100%;
     background-color: gray;
     margin-left: 0;
+    text-align: left;
     
 
 }
@@ -114,6 +115,7 @@ a:active {
     margin-top: 20px;
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
   
     
 }
@@ -131,4 +133,33 @@ a {
 .cont {
  text-align: left;
  font-weight: normal;
+}
+
+.footer {
+    height: 100px;
+ 
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+    background-color: gray;
+}
+.py {
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: gray;
+}
+
+.imgi {
+    border-radius: 50%;
+    background-image: url("images.png") ;
+    background-color: #cccccc; 
+    width : 200px;
+    height: 200px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: solid;
+    margin-left: 23%;
+
+
 }
