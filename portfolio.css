@@ -9,6 +9,8 @@
     background-color: gray;
     position : fixed;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     
 }
 .heading {
@@ -16,6 +18,8 @@
     font-size: xx-large;
     width : 20%;
     background-color: gray;
+    margin-left: 0;
+    
 
 }
 
@@ -30,12 +34,15 @@
     display: flex; 
     padding: 10px;
     justify-content: flex-end;
-    width:70%;
-    transform: translate(40%,0);
+    width: 100%;
     background-color: gray;
     padding-bottom: 20px;
     border-radius: 10%;
 
+}
+a:active {
+    font-size: xx-large;
+    border-color: azure;
 }
 
 .title {
@@ -89,6 +96,7 @@
     padding :15px;
     justify-content: space-evenly;
     text-align: center;
+    
 }
 
 .box {
@@ -97,12 +105,16 @@
     border:solid;
     margin-left: 15px;
     font-size: XX-large;
+    width : 470px;
+    font-weight: bold;
+    background-color: grey;
 }
 
 .qualf_heading {
     margin-top: 20px;
     font-size: 40px;
     font-weight: bold;
+  
     
 }
 .box:hover {
@@ -113,4 +125,10 @@ a {
     text-decoration: none;
     color: azure;
     
+}
+
+
+.cont {
+ text-align: left;
+ font-weight: normal;
 }
