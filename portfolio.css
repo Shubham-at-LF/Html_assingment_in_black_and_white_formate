@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+}
+
+.container_header {
+  
+    color: whitesmoke;
+  
+    background-color: gray;
+    position : fixed;
+    width: 100%;
+    
+}
+.heading {
+    padding: 5px;
+    font-size: xx-large;
+    width : 20%;
+    background-color: gray;
+
+}
+
+.whole_container {
+    background-image: url("download.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+    
+}
+.navBar {
+    display: flex; 
+    padding: 10px;
+    justify-content: flex-end;
+    width:70%;
+    transform: translate(40%,0);
+    background-color: gray;
+    padding-bottom: 20px;
+    border-radius: 10%;
+
+}
+
+.title {
+    margin : 5px;
+    border-radius : 50%;
+    /* border:solid; */
+    padding: 10px;
+    font-size: large;
+
+}
+
+.title:hover{
+    border:solid;
+    font-size: 20px;
+    padding:8px;
+}
+
+.img {
+    border-radius: 50%;
+    background-image: url("images.png") ;
+    background-color: #cccccc; 
+    width : 200px;
+    height: 200px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    border: solid;
+    margin-left: 42%;
+
+
+}
+
+.intro {
+    height: 50%;
+    text-align: center;
+    padding-top: 200px;
+   
+}
+.intro p {
+    font-size: x-large;
+}
+.name {
+    padding-top: 10;
+    font-size:xx-large ;
+    color: aliceblue;
+}
+
+.qualification{
+    margin-top: 30px;
+    display : flex;
+    padding :15px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.box {
+    padding :15px;
+    border-radius: 10%;
+    border:solid;
+    margin-left: 15px;
+    font-size: XX-large;
+}
+
+.qualf_heading {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.box:hover {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    
+}
